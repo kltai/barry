@@ -1,0 +1,22 @@
+/sa
+
+
+Hello World!  
+Press Enter to Continue
+/*
+string wk_ans 1
+
+sa_start:
+
+page sa at 0 0
+gotoxy screenend 23 1
+accept wk_ans
+abort
+
+keyproc key.escape
+clearscreen
+abort
+
+keyproc key.clear
+clearscreen
+return sa_start
