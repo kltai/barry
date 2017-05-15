@@ -4,6 +4,7 @@ Name          : __________________
 Address       : _________________________________________
                 _________________________________________
                 _________________________________________
+Country       : __________________                
 Contact       : __________________
 Email Address : __________________________________________________
 /*
@@ -13,6 +14,7 @@ autopage sa
   name saadd1
   name saadd2
   name saadd3
+  name sacountry
   name sacon
   name saemail
   
@@ -24,6 +26,7 @@ autopage sa
     accept saadd1
     accept saadd2
     accept saadd3
+    accept sacountry
     accept sacon
     accept saemail1
   endgroup
