@@ -1,0 +1,12 @@
+/sa
+
+
+Hello World!  
+Press Enter to Continue
+/*
+string wk_ans 1
+page sa at 0 0
+gotoxy screenend 23 1
+accept wk_ans
+abort
+
