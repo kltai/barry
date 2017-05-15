@@ -1,0 +1,38 @@
+/sa
+
+Name          : __________________
+Address       : _________________________________________
+                _________________________________________
+                _________________________________________
+Contact       : __________________
+Email Address : __________________________________________________
+/*
+
+autopage sa
+  name sanam
+  name saadd1
+  name saadd2
+  name saadd3
+  name sacon
+  name saemail
+  
+  
+  sa_start:
+  clearform sa
+  entergroup
+    accept saname
+    accept saadd1
+    accept saadd2
+    accept saadd3
+    accept sacon
+    accept saemail1
+  endgroup
+  goto sa_start
+  
+  keyproc key.escape
+  clearscreen
+  abort
+  
+  keyproc key.clear
+  return sa_start
+  
